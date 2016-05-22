@@ -163,7 +163,7 @@ run_analysis <- function() {
     TidyData$variable <- gsub("Acc"," Accelerometer",TidyDataTemp$variable)
     
     setwd("C:/Users/User/Documents/R/course1 Assignments/datasciencecoursera") 
-    write.csv(TidyDataTemp, file = "TidyData.csv")
+    write.table(TidyDataTemp,file="tidydata.txt",row.name=FALSE)
     
     return(TidyData)
     
