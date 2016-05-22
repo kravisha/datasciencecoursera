@@ -7,13 +7,13 @@ run_analysis <- function() {
     #    activityTestFile <- "C:/data/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/y_test_test.txt"
 
     # Read filename dirctories    
-    trainFile <- "C:/data/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/X_train.txt"
-    subjectTrainFile <- "C:/data/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/subject_train.txt"
-    activityTrainFile <- "C:/data/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/y_train.txt"
-    labelsFile <-    "C:/data/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/features.txt"
-    testFile <- "C:/data/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/X_test.txt"
-    subjectTestFile <- "C:/data/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/subject_test.txt"
-    activityTestFile <- "C:/data/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/y_test.txt"
+    trainFile <- "X_train.txt"
+    subjectTrainFile <- "subject_train.txt"
+    activityTrainFile <- "y_train.txt"
+    labelsFile <-    "features.txt"
+    testFile <- "X_test.txt"
+    subjectTestFile <- "subject_test.txt"
+    activityTestFile <- "y_test.txt"
 
     # Read data into Dataframes
 
